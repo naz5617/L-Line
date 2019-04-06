@@ -3,13 +3,9 @@ import asterisk.agi
 
 
 
-
-
 def main():
     help(asterisk)
-    #help(asterisk.agi)
-    #help(asterisk.manager)
-    #help(asterisk.config)
+    help(asterisk.agi)
 
 
 if __name__ == "__main__":
