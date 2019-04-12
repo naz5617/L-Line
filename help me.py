@@ -1,7 +1,5 @@
 from pystrix import *
-import re
-import threading
-import time
+
 
 if __name__ == '__main__':
     agi = pystrix.agi.AGI()
@@ -111,11 +109,3 @@ if __name__ == '__main__':
         agi.execute(pystrix.agi.core.Hangup())
 
 
-
-bingus = {
-    1: 'basic.wav',
-    2: 'basic+.wav'
-}
-
-
-api.execute(pystrix.agi.core.ControlStreamFile(bingus[num]))
