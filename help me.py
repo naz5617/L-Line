@@ -6,9 +6,6 @@ if __name__ == '__main__':
 
     agi.execute(pystrix.agi.core.Answer)
 
-    response = agi.execute(pystrix.agi.core.StreamFile('demo-thanks', escape_digits=('1', '2')))
-    if response:
-        (dtmf_character, offset) = response
     num = agi.execute(pystrix.agi.core.WaitForDigit)
     agi.execute(pystrix.agi.core.ControlStreamFile('intro.wav'))
     agi.execute(pystrix.agi.core.ControlStreamFile('max.wav'))
@@ -105,7 +102,7 @@ if __name__ == '__main__':
             # go into the pre-made porno listings random five.
         else:
             agi.execute(pystrix.agi.core.Hangup())
-    else:
-        agi.execute(pystrix.agi.core.Hangup())
+
+    agi.execute(pystrix.agi.core.Hangup())
 
 
