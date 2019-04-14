@@ -65,7 +65,20 @@ if __name__ == '__main__':
         elif num == 3:
             num = agi.execute(pystrix.agi.core.WaitForDigit)
             agi.execute(pystrix.agi.core.ControlStreamFile('Max_Porno_Intro'))
-
+            porno = []
+            while porno <= 5:
+                porn = random.randint(1, 32)
+                if porn not in porno:
+                    porno.append(porn)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[1]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[2]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[3]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[4]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[5]))
             # go into the pre-made porno listings random five.
         else:
             agi.execute(pystrix.agi.core.Hangup())
@@ -121,7 +134,22 @@ if __name__ == '__main__':
 
         elif num == 3:
             num = agi.execute(pystrix.agi.core.WaitForDigit)
-            agi.execute(pystrix.agi.core.ControlStreamFile('Max_Porno_Intro'))
+            agi.execute(pystrix.agi.core.ControlStreamFile('Joe_Porno_Intro'))
+            porno = []
+            while porno <= 5:
+                porn = random.randint(1, 32)
+                if porn not in porno:
+                    porno.append(porn)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[1]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[2]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[3]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[4]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[5]))
+            # go into the pre-made porno listings random five.
         else:
             agi.execute(pystrix.agi.core.Hangup())
     elif num == 3:
@@ -152,6 +180,21 @@ if __name__ == '__main__':
             # Start Live chat info
         elif num == 3:
             num = agi.execute(pystrix.agi.core.WaitForDigit)
+            agi.execute(pystrix.agi.core.ControlStreamFile('Ang_Porno_Intro'))
+            porno = []
+            while porno <= 5:
+                porn = random.randint(1, 32)
+                if porn not in porno:
+                    porno.append(porn)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[1]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[2]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[3]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[4]))
+            time.sleep(1)
+            agi.execute(pystrix.agi.core.ControlStreamFile(porno[5]))
             # go into the pre-made porno listings random five.
         else:
             agi.execute(pystrix.agi.core.Hangup())
