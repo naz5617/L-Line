@@ -74,7 +74,8 @@ if __name__ == '__main__':
         agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Porno_Intro'))
         porno = []
         while porno <= 5:
-            porn = random.randint(1, 32)
+            random = random.randint(1, 32)
+            porn = name + "_p" + random
             if porn not in porno:
                 porno.append(porn)
         agi.execute(pystrix.agi.core.ControlStreamFile(porno[1]))
