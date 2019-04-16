@@ -36,6 +36,7 @@ if __name__ == '__main__':
     num = agi.execute(pystrix.agi.core.WaitForDigit)
     if num == 1:
         num = agi.execute(pystrix.agi.core.WaitForDigit)
+        agi.execute(pystrix.agi.core.SetExtension(109))
         # transfer call to conference room
     elif num == 2:
         num = agi.execute(pystrix.agi.core.WaitForDigit)
@@ -43,31 +44,43 @@ if __name__ == '__main__':
         # Start Live chat info
         if num == 1:
             agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Basic'))
+            agi.execute(pystrix.agi.core.SetExtension(793))
         elif num == 2:
             agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Basic+'))
+            agi.execute(pystrix.agi.core.SetExtension(793))
         elif num == 3:
             agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Brutal'))
+            agi.execute(pystrix.agi.core.SetExtension(793))
         elif num == 4:
             agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Brutal+'))
+            agi.execute(pystrix.agi.core.SetExtension(793))
         elif num == 5:
             agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Other'))
+            agi.execute(pystrix.agi.core.SetExtension(793))
         elif num == 6:
             agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Ultra'))
+            agi.execute(pystrix.agi.core.SetExtension(793))
         elif num == 7:
             agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Specials_Intro'))
             spec = random.randint(1, 6)
             if spec == 1:
                 agi.execute(pystrix.agi.core.ControlStreamFile(name + '_UnderTheSea'))
+                agi.execute(pystrix.agi.core.SetExtension(793))
             elif spec == 2:
                 agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Lovecraft'))
+                agi.execute(pystrix.agi.core.SetExtension(793))
             elif spec == 3:
                 agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Rainbow'))
+                agi.execute(pystrix.agi.core.SetExtension(793))
             elif spec == 4:
                 agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Fruit'))
+                agi.execute(pystrix.agi.core.SetExtension(793))
             elif spec == 5:
                 agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Bees'))
+                agi.execute(pystrix.agi.core.SetExtension(793))
             else:
                 agi.execute(pystrix.agi.core.ControlStreamFile(name + '_Soups'))
+                agi.execute(pystrix.agi.core.SetExtension(793))
 
     elif num == 3:
         num = agi.execute(pystrix.agi.core.WaitForDigit)
