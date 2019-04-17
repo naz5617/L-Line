@@ -36,7 +36,7 @@ if __name__ == '__main__':
     send_audio(name + '_Intro_Response')
     num = digit_input
     if num == 1:
-        agi.execute(pystrix.agi.core.SetExtension(109))
+        agi.execute(pystrix.agi.core.SetExtension(203))
         # transfer call to conference room
     elif num == 2:
         num = digit_input
@@ -44,43 +44,43 @@ if __name__ == '__main__':
         # Start Live chat info
         if num == 1:
             send_audio(name + '_Basic')
-            agi.execute(pystrix.agi.core.SetExtension(793))
+            agi.execute(pystrix.agi.core.SetExtension(739))
         elif num == 2:
             send_audio(name + '_Basic+')
-            agi.execute(pystrix.agi.core.SetExtension(793))
+            agi.execute(pystrix.agi.core.SetExtension(739))
         elif num == 3:
             send_audio(name + '_Brutal')
-            agi.execute(pystrix.agi.core.SetExtension(793))
+            agi.execute(pystrix.agi.core.SetExtension(739))
         elif num == 4:
             send_audio(name + '_Brutal+')
-            agi.execute(pystrix.agi.core.SetExtension(793))
+            agi.execute(pystrix.agi.core.SetExtension(739))
         elif num == 5:
             send_audio(name + '_Other')
-            agi.execute(pystrix.agi.core.SetExtension(793))
+            agi.execute(pystrix.agi.core.SetExtension(739))
         elif num == 6:
             send_audio(name + '_Ultra')
-            agi.execute(pystrix.agi.core.SetExtension(793))
+            agi.execute(pystrix.agi.core.SetExtension(739))
         elif num == 7:
             send_audio(name + '_Specials_Intro')
             spec = random.randint(1, 6)
             if spec == 1:
                 send_audio(name + '_UnderTheSea')
-                agi.execute(pystrix.agi.core.SetExtension(793))
+                agi.execute(pystrix.agi.core.SetExtension(739))
             elif spec == 2:
                 send_audio(name + '_Lovecraft')
-                agi.execute(pystrix.agi.core.SetExtension(793))
+                agi.execute(pystrix.agi.core.SetExtension(739))
             elif spec == 3:
                 send_audio(name + '_Rainbow')
-                agi.execute(pystrix.agi.core.SetExtension(793))
+                agi.execute(pystrix.agi.core.SetExtension(739))
             elif spec == 4:
                 send_audio(name + '_Fruit')
-                agi.execute(pystrix.agi.core.SetExtension(793))
+                agi.execute(pystrix.agi.core.SetExtension(739))
             elif spec == 5:
                 send_audio(name + '_Bees')
-                agi.execute(pystrix.agi.core.SetExtension(793))
+                agi.execute(pystrix.agi.core.SetExtension(739))
             else:
                 send_audio(name + '_Soups')
-                agi.execute(pystrix.agi.core.SetExtension(793))
+                agi.execute(pystrix.agi.core.SetExtension(739))
 
     elif num == 3:
         send_audio(name + '_Porno_Intro')
