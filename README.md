@@ -1,9 +1,9 @@
 # L-Line
 ## IVR phone system created through the Pystrix agi 
 
-*Started research:* **3/17/19
+*Started research:* ** 3/17/19 ***
 
-*Started coding:* **3/30/19
+*Started coding:* ** 3/30/19 ***
 
 ## Description:
 
@@ -13,7 +13,7 @@ This is mostly made with If elif statements and randomizers planning to upgrade 
 under the recommendation of a friend. I also plan to try to create functionality to have it modular to make it easy to be used in multiple situations.
 
 
-##Needs:
+## Needs:
 
  - [x] to have IVR functional 
  - [x] to be mostly based out of python 
@@ -22,7 +22,7 @@ under the recommendation of a friend. I also plan to try to create functionality
  - [] to be able to add new audio files on the go 
  - [] To create an easily expandable IVR that has general capabilities
  
-##Next Steps:
+## Next Steps:
 
 1. Make alternative in Decisions trees
 2. Have audio files accessed by classes
