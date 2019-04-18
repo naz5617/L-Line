@@ -17,10 +17,10 @@ under the recommendation of a friend. I also plan to try to create functionality
 
  - [x] to have IVR functional 
  - [x] to be mostly based out of python 
- - [] to be customizable for the future
- - [] to be able to be accessed easily
- - [] to be able to add new audio files on the go 
- - [] To create an easily expandable IVR that has general capabilities
+ - [ ] to be customizable for the future
+ - [ ] to be able to be accessed easily
+ - [ ] to be able to add new audio files on the go 
+ - [ ] To create an easily expandable IVR that has general capabilities
  
 ## Next Steps:
 
