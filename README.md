@@ -1,9 +1,9 @@
 # L-Line
 ## IVR phone system created through the Pystrix agi 
 
-*Started research:* ** 3/17/19 ***
+*Started research:* 3/17/19 
 
-*Started coding:* ** 3/30/19 ***
+*Started coding:* 3/30/19 
 
 ## Description:
 
@@ -28,7 +28,7 @@ under the recommendation of a friend. I also plan to try to create functionality
 2. Have audio files accessed by classes
 3. Remake phone system.
 
-##Sources:
+## Sources:
 
 [Asterisk AGI](https://www.voip-info.org/asterisk-agi)
 
