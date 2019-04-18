@@ -2,13 +2,13 @@
 <project version="4">
   <component name="BookmarkManager">
     <bookmark url="file://$PROJECT_DIR$/.idea/L-Line.iml" />
-    <bookmark url="file://$PROJECT_DIR$/Main_Body.py" line="63" />
-    <bookmark url="file://$PROJECT_DIR$/test.py" line="4" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72a1272e-074c-41b6-829b-85af8dfbe78a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/help me.py" beforeDir="false" afterPath="$PROJECT_DIR$/help me.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main_Body.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/help me.py" beforeDir="false" afterPath="$PROJECT_DIR$/L-Line-IVR.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,10 +29,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/help me.py">
+        <entry file="file://$PROJECT_DIR$/L-Line-IVR.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-289">
-              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+            <state relative-caret-position="-527">
+              <caret line="23" column="9" selection-start-line="17" selection-start-column="2" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -165,7 +165,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/help me.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\nazah\PycharmProjects\L-Line\L-Line-IVR.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,7 +327,21 @@
       <option name="project" value="LOCAL" />
       <updated>1555509536514</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fixed the extensions to actually be me or the hotline">
+      <created>1555538197043</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555538197043</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added the ability to edit multiple numbers at once">
+      <created>1555538327029</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555538327029</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -368,7 +382,9 @@
     <MESSAGE value="created a way to get each individual clip without adding them all" />
     <MESSAGE value="added in the extensions for when each section finishes" />
     <MESSAGE value="renamed variables for easier understanding" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed variables for easier understanding" />
+    <MESSAGE value="Fixed the extensions to actually be me or the hotline" />
+    <MESSAGE value="added the ability to edit multiple numbers at once" />
+    <option name="LAST_COMMIT_MESSAGE" value="added the ability to edit multiple numbers at once" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/site-packages/asterisk/agi.py">
@@ -388,17 +404,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Main_Body.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -412,18 +436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/help me.py">
+    <entry file="file://$PROJECT_DIR$/L-Line-IVR.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-289">
-          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+        <state relative-caret-position="-527">
+          <caret line="23" column="9" selection-start-line="17" selection-start-column="2" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
